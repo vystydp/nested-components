@@ -1,0 +1,41 @@
+.blog-post-container {
+
+  $mainFont: 13px Helvetica, Arial;
+  $defaultMargin: 10px 0;
+
+  .main {
+    margin: auto;
+    max-width: 420px;
+    padding: 10px;
+
+    .post {
+      font: $mainFont;
+      border: 1px solid #eee;
+      padding: 0 10px;
+    }
+  }
+
+  hr {
+    width: 100px;
+    border-width: 0;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  hr::before {
+    content: '***';
+    color: #ccc;
+  }
+
+  p {
+    font: $mainFont;
+    margin: $defaultMargin;
+  }
+
+
+  h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: $defaultMargin;
+  }
+}
